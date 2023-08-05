@@ -15,7 +15,7 @@ export const LoginTitle = styled.h1`
   float: left;
 `;
 
-export const LoginInputWrap = styled.div`
+export const LoginInputWrap = styled.form`
   width: 400px;
   height: auto;
   display: flex;
