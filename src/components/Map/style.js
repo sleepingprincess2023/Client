@@ -19,6 +19,7 @@ export const GoogleMapWrap = styled.div`
   width: 480px;
   height: 660px;
   background: #efefef;
+  overflow: hidden; 
 `;
 
 export const MapFooterWrap = styled.footer`
