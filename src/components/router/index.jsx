@@ -4,6 +4,7 @@ import MainPage from "../Main";
 import LoginPage from "../../pages/LoginPage";
 import SignupPage from "../../pages/SignupPage";
 import FacePage from "../../pages/FacePage";
+import MapPage from "../../pages/MapPage";
 
 const Router = () => {
   return (
@@ -13,6 +14,7 @@ const Router = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/face" element={<FacePage />} />
+        <Route path="/map" element={<MapPage />} />
       </Switch>
     </>
   );
