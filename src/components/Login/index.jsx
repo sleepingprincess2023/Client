@@ -41,8 +41,8 @@ const Login = () => {
                 value={password}
                 onChange={handleInputPw}
               />
+              <L.LoginButton>완료</L.LoginButton>
             </L.LoginInputWrap>
-            <L.LoginButton>완료</L.LoginButton>
           </L.LoginWrap>
         </_.PageContainer>
       </_.PageWrap>

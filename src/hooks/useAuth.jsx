@@ -40,7 +40,7 @@ export const useAuth = () => {
       localStorage.setItem("access", access);
       localStorage.setItem("refresh", refresh);
       // setIsLoggedIn((prev) => !prev); // 로그인 성공 시 isLoggedIn을 true로 설정
-      console.log(uuid, isLoggedIn);
+      // console.log(uuid, isLoggedIn);
       window.location.replace("/face");
     } catch (error) {
       console.log("로그인에 실패했습니다.", error);
