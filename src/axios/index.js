@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: `http://${process.env.REACT_APP_backip}/api`,
+  baseURL: `${process.env.REACT_APP_backip}`,
   headers: {
     "Content-Type": "application/json",
     withCredentials: true,
@@ -92,8 +92,8 @@ axiosInstance.interceptors.response.use(
 
 export const login = async (uuid, password) => {
   try {
-    console.log(uuid);
-    console.log(password);
+    // console.log(uuid);
+    // console.log(password);
     const response = await axiosInstance.post("/login", {
       uuid: uuid,
       password: password,

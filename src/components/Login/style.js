@@ -39,5 +39,4 @@ export const LoginButton = styled.button`
   margin-top: 200px;
   border: none;
   border-radius: 50px;
-  margin-left: 40px;
 `;
